@@ -1,4 +1,5 @@
 import { Seo } from "@/ui/components/seo";
+import { Typography } from "@/ui/design-system/typography";
 
 
 export default function Home() {
@@ -7,6 +8,11 @@ export default function Home() {
       
 
       <Seo  title="Home" description="description"/>
+      < Typography component="h1">
+
+      Hello World
+      </Typography>
+      
     </>
   );
 }
